@@ -44,9 +44,9 @@ CREATE USER 'hradmin'@'localhost' IDENTIFIED WITH mysql_native_password BY 'ent3
 GRANT ALL ON hrdb.* TO 'hradmin'@'localhost';
 ```
 
-Check SQL files in `db/` and execute them on your database. For more information check [README.md](tree/main/db)
+Check SQL files in `db/` and execute them on your database. For more information check [README.md](https://github.com/muratyaman/php8-simple-hr-api/tree/main/db)
 
-See [entity-relationship-diagram.png](blob/main/entity-relationship-diagram.png)
+See [entity-relationship-diagram.png](https://github.com/muratyaman/php8-simple-hr-api/blob/main/entity-relationship-diagram.png)
 
 Load `entity-relationship-diagram.mwb` using [MySQL Workbench](https://www.mysql.com/products/workbench/).
 
@@ -128,6 +128,13 @@ General logic:
 * Basic MySQL Query Builder
 * 2 Basic Models with DTOs to perform CRUD + Search operations
 * 2 Basic Reports
+* API actions:
+  * department_search
+  * department_create
+  * employee_search
+  * employee_create
+  * report_department_with_max_salary
+  * report_department_with_employees_over_salary
 
 ## TODO
 
