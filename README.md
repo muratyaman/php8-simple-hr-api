@@ -64,7 +64,7 @@ cp .env.sample .env
 
 PHP's built-in [web server](https://www.php.net/manual/en/features.commandline.webserver.php)
 
-This for quick development only; **not** for production purposes!
+This is for quick development only; **not** for production purposes!
 
 ```sh
 cd ./public
@@ -96,6 +96,7 @@ Ref: https://www.nginx.com/resources/wiki/start/topics/examples/phpfcgi/
 
 Ref: https://www.php.net/manual/en/install.unix.nginx.php
 
+Option 3 is not tested.
 
 ## USAGE
 
