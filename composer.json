@@ -1,0 +1,9 @@
+{
+    "autoload": {
+        "psr-4": {"Haci\\": "src/"}
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "pimple/pimple": "^3.4"
+    }
+}
