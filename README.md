@@ -1,5 +1,5 @@
-# php8-simple-hr-api
-Simple Human Resources API using PHP8, PDO, MySQL with variant using Swoole
+# simple-hr-api-php8
+Simple Human Resources API using PHP8, PDO, MySQL with variant using Swoole; supporting frontend https://github.com/muratyaman/simple-hr-app-react
 
 # Requirements
 
